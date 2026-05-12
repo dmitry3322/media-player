@@ -6,13 +6,13 @@
     <title>BOT FRIEND Media</title>
     <style>
         :root {
-            --bg: #1a1a1a;
-            --card: #252525;
+            --bg: #0d0d0d;
+            --card: #1a1a1a;
             --text: #e0e0e0;
-            --sub: #999;
+            --sub: #888;
             --accent: #4a90d9;
             --active: #3a7bc8;
-            --border: #333;
+            --border: #2a2a2a;
         }
 
         * {
@@ -34,11 +34,8 @@
 
         .header {
             padding: 16px;
-            background: #1e1e1e;
+            background: #111;
             border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 10;
         }
 
         .header h1 {
@@ -52,7 +49,7 @@
             padding: 12px 14px;
             border-radius: 12px;
             border: 1px solid var(--border);
-            background: #2a2a2a;
+            background: #1e1e1e;
             color: var(--text);
             font-size: 15px;
             outline: none;
@@ -67,11 +64,8 @@
             display: flex;
             gap: 6px;
             padding: 10px 16px;
-            background: #1e1e1e;
+            background: #111;
             border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 105px;
-            z-index: 10;
         }
 
         .tab {
@@ -79,7 +73,7 @@
             padding: 12px 6px;
             border-radius: 10px;
             border: none;
-            background: #2a2a2a;
+            background: #1e1e1e;
             color: var(--sub);
             font-size: 12px;
             font-weight: 500;
@@ -113,7 +107,7 @@
         }
 
         .track-item:active {
-            background: #303030;
+            background: #222;
         }
 
         .track-icon {
@@ -172,23 +166,21 @@
         }
 
         .btn-fav {
-            background: #333;
+            background: #222;
             color: #ffb800;
             font-size: 16px;
         }
 
         .btn-fav:active {
-            background: #444;
+            background: #333;
         }
 
         .bottom-bar {
             padding: 14px 16px;
-            background: #1e1e1e;
+            background: #111;
             border-top: 1px solid var(--border);
             display: flex;
             gap: 10px;
-            position: sticky;
-            bottom: 0;
         }
 
         .btn-bottom {
@@ -204,12 +196,12 @@
         }
 
         .btn-sync {
-            background: #333;
+            background: #222;
             color: var(--text);
         }
 
         .btn-sync:active {
-            background: #444;
+            background: #333;
         }
 
         .btn-play-all {
@@ -251,7 +243,7 @@
     </div>
 
     <div class="track-list" id="trackList">
-        <div class="empty">Загрузка...</div>
+        <div class="empty">Нет данных</div>
     </div>
 
     <div class="counter" id="counter"></div>
@@ -266,9 +258,9 @@
         let currentTab = 'all';
         let searchQuery = '';
 
-        window.addEventListener('DOMContentLoaded', () => {
-            const params = new URLSearchParams(window.location.search);
-            const data = params.get('data');
+        window.addEventListener('DOMContentLoaded', function() {
+            var params = new URLSearchParams(window.location.search);
+            var data = params.get('data');
             
             if (data) {
                 try {
@@ -277,17 +269,15 @@
                 } catch(e) {
                     document.getElementById('trackList').innerHTML = '<div class="empty">Ошибка загрузки</div>';
                 }
-            } else {
-                document.getElementById('trackList').innerHTML = '<div class="empty">Нажмите 🔄 Обновить для загрузки</div>';
             }
         });
 
         function switchTab(tab) {
             currentTab = tab;
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            const tabs = ['all', 'audio', 'video', 'fav'];
-            const idx = tabs.indexOf(tab);
-            document.querySelectorAll('.tab')[idx].classList.add('active');
+            var tabs = document.querySelectorAll('.tab');
+            tabs.forEach(function(t) { t.classList.remove('active'); });
+            var idx = ['all', 'audio', 'video', 'fav'].indexOf(tab);
+            if (idx >= 0) tabs[idx].classList.add('active');
             renderTracks();
         }
 
@@ -297,20 +287,20 @@
         }
 
         function renderTracks() {
-            let tracks = [...allTracks];
+            var tracks = allTracks.slice();
             
-            if (currentTab === 'audio') tracks = tracks.filter(t => t.type === 'audio');
-            if (currentTab === 'video') tracks = tracks.filter(t => t.type === 'video');
-            if (currentTab === 'fav') tracks = tracks.filter(t => t.fav);
+            if (currentTab === 'audio') tracks = tracks.filter(function(t) { return t.type === 'audio'; });
+            if (currentTab === 'video') tracks = tracks.filter(function(t) { return t.type === 'video'; });
+            if (currentTab === 'fav') tracks = tracks.filter(function(t) { return t.fav; });
             
             if (searchQuery) {
-                tracks = tracks.filter(t => 
-                    (t.artist + ' ' + t.title).toLowerCase().includes(searchQuery)
-                );
+                tracks = tracks.filter(function(t) {
+                    return (t.artist + ' ' + t.title).toLowerCase().indexOf(searchQuery) !== -1;
+                });
             }
             
-            const container = document.getElementById('trackList');
-            const counter = document.getElementById('counter');
+            var container = document.getElementById('trackList');
+            var counter = document.getElementById('counter');
             
             if (tracks.length === 0) {
                 container.innerHTML = '<div class="empty">Ничего не найдено</div>';
@@ -320,19 +310,38 @@
             
             counter.textContent = 'Показано: ' + tracks.length;
             
-            container.innerHTML = tracks.map(function(t) {
-                return '<div class="track-item">' +
+            container.innerHTML = '';
+            tracks.forEach(function(t) {
+                var div = document.createElement('div');
+                div.className = 'track-item';
+                div.innerHTML = 
                     '<div class="track-icon">' + (t.type === 'audio' ? '🎧' : '🎬') + '</div>' +
                     '<div class="track-info">' +
                         '<div class="track-title">' + escapeHtml(t.title) + '</div>' +
                         '<div class="track-artist">' + escapeHtml(t.artist) + '</div>' +
                     '</div>' +
                     '<div class="track-actions">' +
-                        '<button class="btn btn-play" onclick="playTrack(\'' + t.id + '\', \'' + t.type + '\')">▶</button>' +
-                        '<button class="btn btn-fav" onclick="toggleFav(\'' + t.id + '\')">' + (t.fav ? '★' : '☆') + '</button>' +
-                    '</div>' +
-                '</div>';
-            }).join('');
+                        '<button class="btn btn-play" data-id="' + t.id + '" data-type="' + t.type + '">▶</button>' +
+                        '<button class="btn btn-fav" data-id="' + t.id + '">' + (t.fav ? '★' : '☆') + '</button>' +
+                    '</div>';
+                
+                container.appendChild(div);
+            });
+            
+            // Навешиваем события на кнопки
+            document.querySelectorAll('.btn-play').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    playTrack(this.dataset.id, this.dataset.type);
+                });
+            });
+            
+            document.querySelectorAll('.btn-fav').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    toggleFav(this.dataset.id);
+                });
+            });
         }
 
         function sendToBot(action, id) {
