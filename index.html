@@ -12,7 +12,6 @@
             --sub: #999;
             --accent: #4a90d9;
             --active: #3a7bc8;
-            --danger: #d94a4a;
             --border: #333;
         }
 
@@ -33,7 +32,6 @@
             -webkit-tap-highlight-color: transparent;
         }
 
-        /* Шапка */
         .header {
             padding: 16px;
             background: #1e1e1e;
@@ -51,7 +49,7 @@
 
         .search-box {
             width: 100%;
-            padding: 10px 14px;
+            padding: 12px 14px;
             border-radius: 12px;
             border: 1px solid var(--border);
             background: #2a2a2a;
@@ -65,11 +63,10 @@
             border-color: var(--accent);
         }
 
-        /* Вкладки */
         .tabs {
             display: flex;
-            gap: 4px;
-            padding: 8px 16px;
+            gap: 6px;
+            padding: 10px 16px;
             background: #1e1e1e;
             border-bottom: 1px solid var(--border);
             position: sticky;
@@ -79,12 +76,12 @@
 
         .tab {
             flex: 1;
-            padding: 10px 8px;
+            padding: 12px 6px;
             border-radius: 10px;
             border: none;
-            background: transparent;
+            background: #2a2a2a;
             color: var(--sub);
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 500;
             cursor: pointer;
             transition: all 0.2s;
@@ -96,7 +93,6 @@
             color: #fff;
         }
 
-        /* Список */
         .track-list {
             flex: 1;
             overflow-y: auto;
@@ -107,13 +103,13 @@
         .track-item {
             display: flex;
             align-items: center;
-            padding: 12px;
+            padding: 14px 12px;
             border-radius: 12px;
             background: var(--card);
-            margin-bottom: 6px;
+            margin-bottom: 8px;
             cursor: pointer;
             transition: background 0.15s;
-            gap: 10px;
+            gap: 12px;
         }
 
         .track-item:active {
@@ -121,8 +117,8 @@
         }
 
         .track-icon {
-            font-size: 20px;
-            min-width: 24px;
+            font-size: 28px;
+            min-width: 32px;
             text-align: center;
         }
 
@@ -132,7 +128,7 @@
         }
 
         .track-title {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 500;
             white-space: nowrap;
             overflow: hidden;
@@ -140,8 +136,9 @@
         }
 
         .track-artist {
-            font-size: 12px;
+            font-size: 13px;
             color: var(--sub);
+            margin-top: 2px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -149,17 +146,20 @@
 
         .track-actions {
             display: flex;
-            gap: 6px;
+            gap: 8px;
+            flex-shrink: 0;
         }
 
         .btn {
-            padding: 8px 12px;
-            border-radius: 8px;
+            padding: 10px 14px;
+            border-radius: 10px;
             border: none;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.15s;
+            min-width: 40px;
+            text-align: center;
         }
 
         .btn-play {
@@ -174,32 +174,33 @@
         .btn-fav {
             background: #333;
             color: #ffb800;
+            font-size: 16px;
         }
 
         .btn-fav:active {
             background: #444;
         }
 
-        /* Нижняя панель */
         .bottom-bar {
-            padding: 12px 16px;
+            padding: 14px 16px;
             background: #1e1e1e;
             border-top: 1px solid var(--border);
             display: flex;
-            gap: 8px;
+            gap: 10px;
             position: sticky;
             bottom: 0;
         }
 
         .btn-bottom {
             flex: 1;
-            padding: 12px;
-            border-radius: 10px;
+            padding: 14px 10px;
+            border-radius: 12px;
             border: none;
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.15s;
+            white-space: nowrap;
         }
 
         .btn-sync {
@@ -224,7 +225,7 @@
             font-size: 11px;
             color: var(--sub);
             text-align: center;
-            padding: 4px;
+            padding: 6px;
         }
 
         .empty {
@@ -237,13 +238,11 @@
 </head>
 <body>
 
-    <!-- Шапка -->
     <div class="header">
         <h1>🎬 BOT FRIEND</h1>
         <input type="text" class="search-box" placeholder="🔍 Поиск..." oninput="filterTracks()">
     </div>
 
-    <!-- Вкладки -->
     <div class="tabs">
         <button class="tab active" onclick="switchTab('all')">Все</button>
         <button class="tab" onclick="switchTab('audio')">🎧 Аудио</button>
@@ -251,29 +250,23 @@
         <button class="tab" onclick="switchTab('fav')">⭐ Избранное</button>
     </div>
 
-    <!-- Список треков -->
     <div class="track-list" id="trackList">
         <div class="empty">Загрузка...</div>
     </div>
 
-    <!-- Счётчик -->
     <div class="counter" id="counter"></div>
 
-    <!-- Нижняя панель -->
     <div class="bottom-bar">
         <button class="btn-bottom btn-sync" onclick="syncTracks()">🔄 Обновить</button>
         <button class="btn-bottom btn-play-all" onclick="playAllFav()">▶ Избранное</button>
     </div>
 
     <script>
-        // Данные треков
         let allTracks = [];
         let currentTab = 'all';
         let searchQuery = '';
 
-        // При загрузке страницы
         window.addEventListener('DOMContentLoaded', () => {
-            // Пробуем получить данные из URL
             const params = new URLSearchParams(window.location.search);
             const data = params.get('data');
             
@@ -282,39 +275,34 @@
                     allTracks = JSON.parse(decodeURIComponent(data));
                     renderTracks();
                 } catch(e) {
-                    document.getElementById('trackList').innerHTML = '<div class="empty">Ошибка загрузки данных</div>';
+                    document.getElementById('trackList').innerHTML = '<div class="empty">Ошибка загрузки</div>';
                 }
             } else {
                 document.getElementById('trackList').innerHTML = '<div class="empty">Нажмите 🔄 Обновить для загрузки</div>';
             }
         });
 
-        // Переключение вкладок
         function switchTab(tab) {
             currentTab = tab;
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            document.querySelector(`.tab:nth-child(${
-                tab === 'all' ? 1 : tab === 'audio' ? 2 : tab === 'video' ? 3 : 4
-            })`).classList.add('active');
+            const tabs = ['all', 'audio', 'video', 'fav'];
+            const idx = tabs.indexOf(tab);
+            document.querySelectorAll('.tab')[idx].classList.add('active');
             renderTracks();
         }
 
-        // Фильтрация треков
         function filterTracks() {
             searchQuery = document.querySelector('.search-box').value.toLowerCase();
             renderTracks();
         }
 
-        // Отображение треков
         function renderTracks() {
             let tracks = [...allTracks];
             
-            // Фильтр по вкладке
             if (currentTab === 'audio') tracks = tracks.filter(t => t.type === 'audio');
             if (currentTab === 'video') tracks = tracks.filter(t => t.type === 'video');
             if (currentTab === 'fav') tracks = tracks.filter(t => t.fav);
             
-            // Фильтр по поиску
             if (searchQuery) {
                 tracks = tracks.filter(t => 
                     (t.artist + ' ' + t.title).toLowerCase().includes(searchQuery)
@@ -330,57 +318,50 @@
                 return;
             }
             
-            counter.textContent = `Показано: ${tracks.length}`;
+            counter.textContent = 'Показано: ' + tracks.length;
             
-            container.innerHTML = tracks.map((t, i) => `
-                <div class="track-item">
-                    <div class="track-icon">${t.type === 'audio' ? '🎧' : '🎬'}</div>
-                    <div class="track-info">
-                        <div class="track-title">${escapeHtml(t.title)}</div>
-                        <div class="track-artist">${escapeHtml(t.artist)}</div>
-                    </div>
-                    <div class="track-actions">
-                        <button class="btn btn-play" onclick="playTrack('${t.id}', '${t.type}')">▶</button>
-                        <button class="btn btn-fav" onclick="toggleFav('${t.id}')">${t.fav ? '★' : '☆'}</button>
-                    </div>
-                </div>
-            `).join('');
+            container.innerHTML = tracks.map(function(t) {
+                return '<div class="track-item">' +
+                    '<div class="track-icon">' + (t.type === 'audio' ? '🎧' : '🎬') + '</div>' +
+                    '<div class="track-info">' +
+                        '<div class="track-title">' + escapeHtml(t.title) + '</div>' +
+                        '<div class="track-artist">' + escapeHtml(t.artist) + '</div>' +
+                    '</div>' +
+                    '<div class="track-actions">' +
+                        '<button class="btn btn-play" onclick="playTrack(\'' + t.id + '\', \'' + t.type + '\')">▶</button>' +
+                        '<button class="btn btn-fav" onclick="toggleFav(\'' + t.id + '\')">' + (t.fav ? '★' : '☆') + '</button>' +
+                    '</div>' +
+                '</div>';
+            }).join('');
         }
 
-        // Отправить команду боту
         function sendToBot(action, id) {
             if (window.Telegram && window.Telegram.WebApp) {
-                window.Telegram.WebApp.sendData(JSON.stringify({action, id}));
+                window.Telegram.WebApp.sendData(JSON.stringify({action: action, id: id}));
             }
         }
 
-        // Воспроизвести трек
         function playTrack(id, type) {
             sendToBot('play', id);
         }
 
-        // Избранное
         function toggleFav(id) {
             sendToBot('fav', id);
-            // Локально переключаем
-            const track = allTracks.find(t => t.id == id);
+            var track = allTracks.find(function(t) { return t.id == id; });
             if (track) track.fav = !track.fav;
             renderTracks();
         }
 
-        // Синхронизация с ботом
         function syncTracks() {
             sendToBot('sync', null);
         }
 
-        // Воспроизвести всё избранное
         function playAllFav() {
             sendToBot('play_all_fav', null);
         }
 
-        // Экранирование HTML
         function escapeHtml(text) {
-            const div = document.createElement('div');
+            var div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
         }
