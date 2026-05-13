@@ -7,9 +7,9 @@
         if (window.Telegram && window.Telegram.WebApp) {
             window.Telegram.WebApp.ready();
             window.Telegram.WebApp.sendData(JSON.stringify({action: 'test'}));
-            document.body.innerHTML += '<p>Отправлено</p>';
+            document.body.innerHTML += '<p style="color:green;">✅ sendData отправлен</p>';
         } else {
-            document.body.innerHTML += '<p>Не WebApp</p>';
+            document.body.innerHTML += '<p style="color:red;">⛔ Не WebApp</p>';
         }
     </script>
 </body>
