@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOT FRIEND Media</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
         :root {
             --bg: #1e1e24;
@@ -14,364 +15,112 @@
             --active: #6a5de0;
             --border: #333;
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            user-select: none;
-            -webkit-tap-highlight-color: transparent;
+            background: var(--bg); color: var(--text);
+            height: 100vh; display: flex; flex-direction: column;
+            user-select: none; -webkit-tap-highlight-color: transparent;
         }
-
-        .header {
-            padding: 16px;
-            background: #222;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .header h1 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
+        .header { padding: 16px; background: #222; border-bottom: 1px solid var(--border); }
+        .header h1 { font-size: 20px; font-weight: 600; margin-bottom: 10px; }
         .search-box {
-            width: 100%;
-            padding: 12px 14px;
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            background: #2a2a2a;
-            color: var(--text);
-            font-size: 15px;
-            outline: none;
-            transition: border 0.2s;
+            width: 100%; padding: 12px 14px; border-radius: 12px;
+            border: 1px solid var(--border); background: #2a2a2a;
+            color: var(--text); font-size: 15px; outline: none;
         }
-
-        .search-box:focus {
-            border-color: var(--accent);
-        }
-
-        .tabs {
-            display: flex;
-            gap: 6px;
-            padding: 10px 16px;
-            background: #222;
-            border-bottom: 1px solid var(--border);
-        }
-
+        .tabs { display: flex; gap: 6px; padding: 10px 16px; background: #222; border-bottom: 1px solid var(--border); }
         .tab {
-            flex: 1;
-            padding: 12px 6px;
-            border-radius: 10px;
-            border: none;
-            background: #2a2a2a;
-            color: var(--sub);
-            font-size: 12px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-            text-align: center;
+            flex: 1; padding: 12px 6px; border-radius: 10px; border: none;
+            background: #2a2a2a; color: var(--sub); font-size: 12px;
+            font-weight: 500; cursor: pointer; text-align: center;
         }
-
-        .tab.active {
-            background: var(--accent);
-            color: #fff;
-        }
-
-        .track-list {
-            flex: 1;
-            overflow-y: auto;
-            padding: 8px 16px;
-            -webkit-overflow-scrolling: touch;
-        }
-
+        .tab.active { background: var(--accent); color: #fff; }
+        .track-list { flex: 1; overflow-y: auto; padding: 8px 16px; }
         .track-item {
-            display: flex;
-            align-items: center;
-            padding: 14px 12px;
-            border-radius: 12px;
-            background: var(--card);
-            margin-bottom: 8px;
-            cursor: pointer;
-            transition: background 0.15s;
-            gap: 12px;
+            display: flex; align-items: center; padding: 14px 12px;
+            border-radius: 12px; background: var(--card); margin-bottom: 8px; gap: 12px;
         }
-
-        .track-item:active {
-            background: #303030;
-        }
-
-        .track-icon {
-            font-size: 28px;
-            min-width: 32px;
-            text-align: center;
-        }
-
-        .track-info {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .track-title {
-            font-size: 15px;
-            font-weight: 500;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .track-artist {
-            font-size: 13px;
-            color: var(--sub);
-            margin-top: 2px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .track-actions {
-            display: flex;
-            gap: 8px;
-            flex-shrink: 0;
-        }
-
-        .btn {
-            padding: 10px 14px;
-            border-radius: 10px;
-            border: none;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.15s;
-            min-width: 40px;
-            text-align: center;
-        }
-
-        .btn-play {
-            background: var(--accent);
-            color: #fff;
-        }
-
-        .btn-play:active {
-            background: var(--active);
-        }
-
-        .btn-fav {
-            background: #333;
-            color: #f5a623;
-            font-size: 16px;
-        }
-
-        .btn-fav:active {
-            background: #444;
-        }
-
-        .bottom-bar {
-            padding: 14px 16px;
-            background: #222;
-            border-top: 1px solid var(--border);
-            display: flex;
-            gap: 10px;
-        }
-
-        .btn-bottom {
-            flex: 1;
-            padding: 14px 10px;
-            border-radius: 12px;
-            border: none;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.15s;
-            white-space: nowrap;
-        }
-
-        .btn-sync {
-            background: #333;
-            color: var(--text);
-        }
-
-        .btn-sync:active {
-            background: #444;
-        }
-
-        .btn-play-all {
-            background: var(--accent);
-            color: #fff;
-        }
-
-        .btn-play-all:active {
-            background: var(--active);
-        }
-
-        .counter {
-            font-size: 11px;
-            color: var(--sub);
-            text-align: center;
-            padding: 6px;
-        }
-
-        .empty {
-            text-align: center;
-            padding: 40px 20px;
-            color: var(--sub);
-            font-size: 14px;
-        }
+        .track-icon { font-size: 24px; }
+        .track-info { flex: 1; min-width: 0; }
+        .track-title { font-size: 15px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .track-artist { font-size: 13px; color: var(--sub); overflow: hidden; text-overflow: ellipsis; }
+        .btn { padding: 10px 14px; border-radius: 10px; border: none; cursor: pointer; }
+        .btn-play { background: var(--accent); color: #fff; }
+        .bottom-bar { padding: 14px 16px; background: #222; border-top: 1px solid var(--border); display: flex; gap: 10px; }
+        .btn-bottom { flex: 1; padding: 14px; border-radius: 12px; border: none; font-weight: 600; background: #333; color: #fff; }
+        .empty { text-align: center; padding: 40px; color: var(--sub); }
     </style>
 </head>
 <body>
-
     <div class="header">
         <h1>🎬 BOT FRIEND</h1>
         <input type="text" class="search-box" placeholder="🔍 Поиск..." oninput="filterTracks()">
     </div>
-
     <div class="tabs">
         <button class="tab active" onclick="switchTab('all')">Все</button>
         <button class="tab" onclick="switchTab('audio')">🎧 Аудио</button>
         <button class="tab" onclick="switchTab('video')">🎬 Клипы</button>
-        <button class="tab" onclick="switchTab('fav')">⭐ Избранное</button>
     </div>
-
-    <div class="track-list" id="trackList">
-        <div class="empty">Нет данных</div>
-    </div>
-
-    <div class="counter" id="counter"></div>
-
+    <div class="track-list" id="trackList"><div class="empty">Загрузка...</div></div>
     <div class="bottom-bar">
-        <button class="btn-bottom btn-sync" onclick="syncTracks()">🔄 Обновить</button>
-        <button class="btn-bottom btn-play-all" onclick="playAllFav()">▶ Избранное</button>
+        <button class="btn-bottom" onclick="sendToBot('sync', null)">🔄 Обновить список</button>
     </div>
 
     <script>
         let allTracks = [];
         let currentTab = 'all';
-        let searchQuery = '';
+        const tg = window.Telegram.WebApp;
+        tg.expand();
 
-        window.addEventListener('DOMContentLoaded', function() {
-            var params = new URLSearchParams(window.location.search);
-            var data = params.get('data');
-            
-            if (data) {
-                try {
-                    allTracks = JSON.parse(decodeURIComponent(data));
-                    renderTracks();
-                } catch(e) {
-                    document.getElementById('trackList').innerHTML = '<div class="empty">Ошибка загрузки</div>';
-                }
-            }
-        });
+        fetch('media_data.json')
+            .then(r => r.json())
+            .then(data => {
+                allTracks = data.songs || [];
+                renderTracks();
+            })
+            .catch(() => {
+                document.getElementById('trackList').innerHTML = '<div class="empty">Файл media_data.json не найден</div>';
+            });
 
         function switchTab(tab) {
             currentTab = tab;
-            var tabs = document.querySelectorAll('.tab');
-            tabs.forEach(function(t) { t.classList.remove('active'); });
-            var idx = ['all', 'audio', 'video', 'fav'].indexOf(tab);
-            if (idx >= 0) tabs[idx].classList.add('active');
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
             renderTracks();
         }
 
         function filterTracks() {
-            searchQuery = document.querySelector('.search-box').value.toLowerCase();
-            renderTracks();
+            const query = document.querySelector('.search-box').value.toLowerCase();
+            renderTracks(query);
         }
 
-        function renderTracks() {
-            var tracks = allTracks.slice();
+        function renderTracks(query = '') {
+            let filtered = allTracks;
+            if (currentTab !== 'all') filtered = filtered.filter(t => t.type === currentTab);
+            if (query) filtered = filtered.filter(t => (t.artist + t.title).toLowerCase().includes(query));
+
+            const container = document.getElementById('trackList');
+            container.innerHTML = filtered.length ? '' : '<div class="empty">Ничего не найдено</div>';
             
-            if (currentTab === 'audio') tracks = tracks.filter(function(t) { return t.type === 'audio'; });
-            if (currentTab === 'video') tracks = tracks.filter(function(t) { return t.type === 'video'; });
-            if (currentTab === 'fav') tracks = tracks.filter(function(t) { return t.fav; });
-            
-            if (searchQuery) {
-                tracks = tracks.filter(function(t) {
-                    return (t.artist + ' ' + t.title).toLowerCase().indexOf(searchQuery) !== -1;
-                });
-            }
-            
-            var container = document.getElementById('trackList');
-            var counter = document.getElementById('counter');
-            
-            if (tracks.length === 0) {
-                container.innerHTML = '<div class="empty">Ничего не найдено</div>';
-                counter.textContent = '';
-                return;
-            }
-            
-            counter.textContent = 'Показано: ' + tracks.length;
-            
-            container.innerHTML = '';
-            tracks.forEach(function(t) {
-                var div = document.createElement('div');
+            filtered.forEach(t => {
+                const div = document.createElement('div');
                 div.className = 'track-item';
-                div.innerHTML = 
-                    '<div class="track-icon">' + (t.type === 'audio' ? '🎧' : '🎬') + '</div>' +
-                    '<div class="track-info">' +
-                        '<div class="track-title">' + escapeHtml(t.title) + '</div>' +
-                        '<div class="track-artist">' + escapeHtml(t.artist) + '</div>' +
-                    '</div>' +
-                    '<div class="track-actions">' +
-                        '<button class="btn btn-play" data-id="' + t.id + '" data-type="' + t.type + '">▶</button>' +
-                        '<button class="btn btn-fav" data-id="' + t.id + '">' + (t.fav ? '★' : '☆') + '</button>' +
-                    '</div>';
-                
+                div.innerHTML = `
+                    <div class="track-icon">${t.type === 'audio' ? '🎧' : '🎬'}</div>
+                    <div class="track-info">
+                        <div class="track-title">${t.title}</div>
+                        <div class="track-artist">${t.artist}</div>
+                    </div>
+                    <button class="btn btn-play" onclick="sendToBot('play', ${t.id})">▶</button>
+                `;
                 container.appendChild(div);
-            });
-            
-            document.querySelectorAll('.btn-play').forEach(function(btn) {
-                btn.addEventListener('click', function(e) {
-                    e.stopPropagation();
-                    playTrack(this.dataset.id, this.dataset.type);
-                });
-            });
-            
-            document.querySelectorAll('.btn-fav').forEach(function(btn) {
-                btn.addEventListener('click', function(e) {
-                    e.stopPropagation();
-                    toggleFav(this.dataset.id);
-                });
             });
         }
 
         function sendToBot(action, id) {
-            if (window.Telegram && window.Telegram.WebApp) {
-                window.Telegram.WebApp.sendData(JSON.stringify({action: action, id: id}));
-            }
-        }
-
-        function playTrack(id, type) {
-            sendToBot('play', id);
-        }
-
-        function toggleFav(id) {
-            sendToBot('fav', id);
-            var track = allTracks.find(function(t) { return t.id == id; });
-            if (track) track.fav = !track.fav;
-            renderTracks();
-        }
-
-        function syncTracks() {
-            sendToBot('sync', null);
-        }
-
-        function playAllFav() {
-            sendToBot('play_all_fav', null);
-        }
-
-        function escapeHtml(text) {
-            var div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
+            tg.sendData(JSON.stringify({action: action, id: id}));
+            tg.close();
         }
     </script>
 </body>
