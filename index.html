@@ -73,7 +73,7 @@
         const tg = window.Telegram.WebApp;
         tg.expand();
 
-        fetch('media_data.json')
+        fetch('https://dmitry39.pythonanywhere.com/api/playlist')
             .then(r => r.json())
             .then(data => {
                 allTracks = data.songs || [];
