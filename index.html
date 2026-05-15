@@ -64,7 +64,7 @@
     </div>
     <div class="track-list" id="trackList"><div class="empty">Загрузка...</div></div>
     <div class="bottom-bar">
-        <button class="btn-bottom" onclick="sendToBot('sync', null)">🔄 Обновить список</button>
+        <button class="btn-bottom" onclick="location.reload()">🔄 Обновить список</button>
     </div>
 
     <script>
@@ -73,20 +73,29 @@
         const tg = window.Telegram.WebApp;
         tg.expand();
 
-        fetch('https://dmitry39.pythonanywhere.com/api/playlist')
-            .then(r => r.json())
+        // Загрузка данных из твоего репозитория
+        fetch('https://dmitry3322.github.io/media-player/music_list.json')
+            .then(r => {
+                if (!r.ok) throw new Error('Ошибка загрузки файла');
+                return r.json();
+            })
             .then(data => {
-                allTracks = data.songs || [];
+                allTracks = data || [];
                 renderTracks();
             })
-            .catch(() => {
-                document.getElementById('trackList').innerHTML = '<div class="empty">Файл media_data.json не найден</div>';
+            .catch((err) => {
+                console.error(err);
+                document.getElementById('trackList').innerHTML = '<div class="empty">Файл music_list.json не найден или пуст</div>';
             });
 
         function switchTab(tab) {
             currentTab = tab;
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            event.target.classList.add('active');
+            // Подсвечиваем активную вкладку
+            const tabs = document.querySelectorAll('.tab');
+            if (tab === 'all') tabs[0].classList.add('active');
+            else if (tab === 'audio') tabs[1].classList.add('active');
+            else if (tab === 'video') tabs[2].classList.add('active');
             renderTracks();
         }
 
@@ -97,8 +106,17 @@
 
         function renderTracks(query = '') {
             let filtered = allTracks;
-            if (currentTab !== 'all') filtered = filtered.filter(t => t.type === currentTab);
-            if (query) filtered = filtered.filter(t => (t.artist + t.title).toLowerCase().includes(query));
+            
+            // Фильтр по вкладкам (file_type берется из твоего JSON)
+            if (currentTab === 'audio') filtered = filtered.filter(t => t.file_type === 'audio');
+            if (currentTab === 'video') filtered = filtered.filter(t => t.file_type === 'video');
+            
+            // Фильтр по поиску
+            if (query) {
+                filtered = filtered.filter(t => 
+                    (t.artist + " " + t.title).toLowerCase().includes(query)
+                );
+            }
 
             const container = document.getElementById('trackList');
             container.innerHTML = filtered.length ? '' : '<div class="empty">Ничего не найдено</div>';
@@ -107,10 +125,10 @@
                 const div = document.createElement('div');
                 div.className = 'track-item';
                 div.innerHTML = `
-                    <div class="track-icon">${t.type === 'audio' ? '🎧' : '🎬'}</div>
+                    <div class="track-icon">${t.file_type === 'audio' ? '🎧' : '🎬'}</div>
                     <div class="track-info">
-                        <div class="track-title">${t.title}</div>
-                        <div class="track-artist">${t.artist}</div>
+                        <div class="track-title">${t.title || 'Без названия'}</div>
+                        <div class="track-artist">${t.artist || 'Неизвестен'}</div>
                     </div>
                     <button class="btn btn-play" onclick="sendToBot('play', ${t.id})">▶</button>
                 `;
