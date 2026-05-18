@@ -1,0 +1,506 @@
+[
+    {
+        "id": 123,
+        "artist": "Кино",
+        "title": "Сборник клипов",
+        "file_type": "video"
+    },
+    {
+        "id": 130,
+        "artist": "Виктор Цой | Кино |",
+        "title": "Пачка Cигарет | Improviser Remix |\n#musiclife",
+        "file_type": "video"
+    },
+    {
+        "id": 131,
+        "artist": "ЛИНДА",
+        "title": "ЛУЧШИЕ КЛИПЫ \n#musiclife",
+        "file_type": "video"
+    },
+    {
+        "id": 132,
+        "artist": "Eminem",
+        "title": "Devıl_s Son [Music Video] (2026)",
+        "file_type": "video"
+    },
+    {
+        "id": 133,
+        "artist": "Eminem",
+        "title": "PARANOIA [Music Video] _ 2026",
+        "file_type": "video"
+    },
+    {
+        "id": 134,
+        "artist": "Кино",
+        "title": "Место для шага вперёд LIVE",
+        "file_type": "video"
+    },
+    {
+        "id": 135,
+        "artist": "Metallica",
+        "title": "Enter Sandman (SHRED VERSION) || Sophie Lloyd",
+        "file_type": "video"
+    },
+    {
+        "id": 136,
+        "artist": "Eminem",
+        "title": "Psycho Joker [Music Video 2026] New Song",
+        "file_type": "video"
+    },
+    {
+        "id": 137,
+        "artist": "Eminem & Linkin Park",
+        "title": "SHUT DOWN (Music Video) 2026",
+        "file_type": "video"
+    },
+    {
+        "id": 138,
+        "artist": "Клип",
+        "title": "Про Бухло",
+        "file_type": "video"
+    },
+    {
+        "id": 139,
+        "artist": "Eminem",
+        "title": "The Real Psycho [Music Video] _ 2026",
+        "file_type": "video"
+    },
+    {
+        "id": 140,
+        "artist": "Dj Kapral",
+        "title": "Спокойная Ночь (Кино Cover)\n#musiclife",
+        "file_type": "video"
+    },
+    {
+        "id": 141,
+        "artist": "Metallica",
+        "title": "Enter Sandman (Official Music Video)",
+        "file_type": "video"
+    },
+    {
+        "id": 142,
+        "artist": "АЛИСА",
+        "title": "Небо Славян",
+        "file_type": "video"
+    },
+    {
+        "id": 143,
+        "artist": "EMINEM",
+        "title": "CRAZY SOCIOPATH [MUSIC VIDEO] (2026)",
+        "file_type": "video"
+    },
+    {
+        "id": 144,
+        "artist": "Eminem",
+        "title": "Genesis _ Music Video (2026)",
+        "file_type": "video"
+    },
+    {
+        "id": 145,
+        "artist": "Eminem",
+        "title": "Venom",
+        "file_type": "video"
+    },
+    {
+        "id": 146,
+        "artist": "Полина Гагарина",
+        "title": "Therr Maitz 一 Rollin’ (Limp Bizkit) LAB c Антоном Беляевым",
+        "file_type": "video"
+    },
+    {
+        "id": 152,
+        "artist": "Сергей Жуков",
+        "title": "Ждун",
+        "file_type": "video"
+    },
+    {
+        "id": 156,
+        "artist": "Кино",
+        "title": "Звезда",
+        "file_type": "video"
+    },
+    {
+        "id": 157,
+        "artist": "Eminem",
+        "title": "Never Black Down (Music Video) 2026",
+        "file_type": "video"
+    },
+    {
+        "id": 158,
+        "artist": "Eminem",
+        "title": "Psycho Harley Quinn (Video) 2026",
+        "file_type": "video"
+    },
+    {
+        "id": 159,
+        "artist": "Eminem",
+        "title": "Dracula (Remix) 2018",
+        "file_type": "video"
+    },
+    {
+        "id": 160,
+        "artist": "Eminem",
+        "title": "2Pac - Psycho (2026) Video",
+        "file_type": "video"
+    },
+    {
+        "id": 161,
+        "artist": "Клип",
+        "title": "Про рыбалку",
+        "file_type": "video"
+    },
+    {
+        "id": 162,
+        "artist": "Клип",
+        "title": "Рыбак",
+        "file_type": "video"
+    },
+    {
+        "id": 163,
+        "artist": "Eminem",
+        "title": "Lose Yourself",
+        "file_type": "audio"
+    },
+    {
+        "id": 164,
+        "artist": "Rammstein",
+        "title": "Du hast",
+        "file_type": "audio"
+    },
+    {
+        "id": 165,
+        "artist": "Mr. President",
+        "title": "Coco Jamboo",
+        "file_type": "audio"
+    },
+    {
+        "id": 166,
+        "artist": "Би-2",
+        "title": "Варвара",
+        "file_type": "audio"
+    },
+    {
+        "id": 167,
+        "artist": "Sektor Gaza",
+        "title": "Lirika",
+        "file_type": "audio"
+    },
+    {
+        "id": 168,
+        "artist": "Русский Размер",
+        "title": "Ангел дня",
+        "file_type": "audio"
+    },
+    {
+        "id": 169,
+        "artist": "el peel, nocap beats, Маша и Медведи",
+        "title": "Земля",
+        "file_type": "audio"
+    },
+    {
+        "id": 170,
+        "artist": "Sektor Gaza",
+        "title": "Tuman",
+        "file_type": "audio"
+    },
+    {
+        "id": 171,
+        "artist": "Баста",
+        "title": "Моя игра",
+        "file_type": "audio"
+    },
+    {
+        "id": 172,
+        "artist": "The Cranberries",
+        "title": "Zombie",
+        "file_type": "audio"
+    },
+    {
+        "id": 173,
+        "artist": "Europe",
+        "title": "The Final Countdown",
+        "file_type": "audio"
+    },
+    {
+        "id": 174,
+        "artist": "Русский Размер",
+        "title": "Вот так",
+        "file_type": "audio"
+    },
+    {
+        "id": 175,
+        "artist": "DJ DimixeR, 7Б",
+        "title": "Молодые ветра",
+        "file_type": "audio"
+    },
+    {
+        "id": 176,
+        "artist": "Что? feat. GuessWho & Цой",
+        "title": "Пачка сигарет",
+        "file_type": "audio"
+    },
+    {
+        "id": 177,
+        "artist": "MODERN U feat. Оксана Почепа (Акула), NLO",
+        "title": "Такая любовь (feat. NLO, Оксана Почепа (Акула))",
+        "file_type": "audio"
+    },
+    {
+        "id": 178,
+        "artist": "Tim Dian, Kondratev Music",
+        "title": "В неоне теней (Extended)",
+        "file_type": "audio"
+    },
+    {
+        "id": 180,
+        "artist": "Sektor Gaza",
+        "title": "30 Let",
+        "file_type": "audio"
+    },
+    {
+        "id": 181,
+        "artist": "Би-2",
+        "title": "Полковнику никто не пишет",
+        "file_type": "audio"
+    },
+    {
+        "id": 182,
+        "artist": "Depeche Mode",
+        "title": "Personal Jesus",
+        "file_type": "audio"
+    },
+    {
+        "id": 183,
+        "artist": "Лолита",
+        "title": "На Титанике",
+        "file_type": "audio"
+    },
+    {
+        "id": 184,
+        "artist": "Tim Dian & Kondratev Music",
+        "title": "Свет в Тумане",
+        "file_type": "audio"
+    },
+    {
+        "id": 185,
+        "artist": "Баста&Zivert (JAMA MUSIC REMIX)",
+        "title": "неболей",
+        "file_type": "audio"
+    },
+    {
+        "id": 186,
+        "artist": "Sak Noel",
+        "title": "Loca People",
+        "file_type": "audio"
+    },
+    {
+        "id": 187,
+        "artist": "izmailloff",
+        "title": "Galibri & Mavik - Взгляни на небо (izmailloff remix)",
+        "file_type": "audio"
+    },
+    {
+        "id": 188,
+        "artist": "Кукрыниксы",
+        "title": "Не беда",
+        "file_type": "audio"
+    },
+    {
+        "id": 189,
+        "artist": "Русский Размер",
+        "title": "Лети",
+        "file_type": "audio"
+    },
+    {
+        "id": 190,
+        "artist": "Marilyn Manson",
+        "title": "Svit Drims",
+        "file_type": "audio"
+    },
+    {
+        "id": 191,
+        "artist": "Фактор 2",
+        "title": "Красавица",
+        "file_type": "audio"
+    },
+    {
+        "id": 192,
+        "artist": "Неизвестен",
+        "title": "Eminem – Never Back Down Music Video 2026 Aggressive Motivational",
+        "file_type": "audio"
+    },
+    {
+        "id": 193,
+        "artist": "Eminem",
+        "title": "Under Pressure (Official Music Video)",
+        "file_type": "audio"
+    },
+    {
+        "id": 194,
+        "artist": "SERYABKINA",
+        "title": "Одиночка",
+        "file_type": "audio"
+    },
+    {
+        "id": 195,
+        "artist": "Eminem",
+        "title": "Chess With Death [2026] New Song",
+        "file_type": "audio"
+    },
+    {
+        "id": 196,
+        "artist": "Балаган Лимитед",
+        "title": "Че те надо?",
+        "file_type": "audio"
+    },
+    {
+        "id": 197,
+        "artist": "Иванушки International",
+        "title": "Тучи",
+        "file_type": "audio"
+    },
+    {
+        "id": 198,
+        "artist": "Slava",
+        "title": "Одиночество-сука",
+        "file_type": "audio"
+    },
+    {
+        "id": 199,
+        "artist": "Пикник",
+        "title": "Говорит и показывает",
+        "file_type": "audio"
+    },
+    {
+        "id": 200,
+        "artist": "Eminem",
+        "title": "Psycho Joker [Music Video 2026] New Song",
+        "file_type": "audio"
+    },
+    {
+        "id": 201,
+        "artist": "Пикник",
+        "title": "Игла",
+        "file_type": "audio"
+    },
+    {
+        "id": 202,
+        "artist": "Кино",
+        "title": "Последний герой",
+        "file_type": "audio"
+    },
+    {
+        "id": 203,
+        "artist": "Дыши",
+        "title": "Взгляни на небо",
+        "file_type": "audio"
+    },
+    {
+        "id": 204,
+        "artist": "Metallica",
+        "title": "Enter Sandman",
+        "file_type": "audio"
+    },
+    {
+        "id": 205,
+        "artist": "Алиса",
+        "title": "Небо славян",
+        "file_type": "audio"
+    },
+    {
+        "id": 206,
+        "artist": "Дарья Волосевич (исполнение песни в 13 лет)",
+        "title": "Небо славян",
+        "file_type": "audio"
+    },
+    {
+        "id": 207,
+        "artist": "Пикник",
+        "title": "От Кореи до Карелии",
+        "file_type": "audio"
+    },
+    {
+        "id": 208,
+        "artist": "Eminem",
+        "title": "The Devıl Inside Me (2026) New Song",
+        "file_type": "audio"
+    },
+    {
+        "id": 209,
+        "artist": "SERYABKINA",
+        "title": "Стреляй",
+        "file_type": "audio"
+    },
+    {
+        "id": 210,
+        "artist": "Eminem",
+        "title": "ASHES OF YESTERDAY [Official music lyrics video]",
+        "file_type": "audio"
+    },
+    {
+        "id": 211,
+        "artist": "Кино",
+        "title": "Кукушка",
+        "file_type": "audio"
+    },
+    {
+        "id": 212,
+        "artist": "Galibri & Mavik",
+        "title": "Взгляни на небо (Remix)",
+        "file_type": "audio"
+    },
+    {
+        "id": 214,
+        "artist": "Eminem",
+        "title": "MAM",
+        "file_type": "audio"
+    },
+    {
+        "id": 215,
+        "artist": "НАШЕСТВИЕ 2002 Король и Шут",
+        "title": "Прыгну со скалы",
+        "file_type": "audio"
+    },
+    {
+        "id": 219,
+        "artist": "Destiny's Child",
+        "title": "Survivor",
+        "file_type": "audio"
+    },
+    {
+        "id": 220,
+        "artist": "Christina Aguilera",
+        "title": "Genie in a Bottle",
+        "file_type": "audio"
+    },
+    {
+        "id": 221,
+        "artist": "Shaham Joyce, Brandon Perkins",
+        "title": "Bodyrock",
+        "file_type": "audio"
+    },
+    {
+        "id": 222,
+        "artist": "Alizée",
+        "title": "Moi... Lolita",
+        "file_type": "audio"
+    },
+    {
+        "id": 223,
+        "artist": "Metallica - Sofia",
+        "title": "Enter Sandman (Live)",
+        "file_type": "audio"
+    },
+    {
+        "id": 225,
+        "artist": "Алексей Большаков",
+        "title": "Раммштайн",
+        "file_type": "audio"
+    },
+    {
+        "id": 226,
+        "artist": "Неизвестен",
+        "title": "Король и Шут Камнем по Голове",
+        "file_type": "audio"
+    }
+]
