@@ -1,0 +1,148 @@
+[
+  {
+    "id": 123,
+    "artist": "Кино",
+    "title": "Сборник клипов",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 130,
+    "artist": "Виктор Цой | Кино |",
+    "title": "Пачка Cигарет | Improviser Remix | #musiclife",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 131,
+    "artist": "ЛИНДА",
+    "title": "ЛУЧШИЕ КЛИПЫ #musiclife",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 132,
+    "artist": "Eminem",
+    "title": "Devıl_s Son [Music Video] (2026)",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 133,
+    "artist": "Eminem",
+    "title": "PARANOIA [Music Video] _ 2026",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 134,
+    "artist": "Кино",
+    "title": "Место для шага вперёд LIVE",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 135,
+    "artist": "Metallica",
+    "title": "Enter Sandman (SHRED VERSION) || Sophie Lloyd",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 136,
+    "artist": "Eminem",
+    "title": "Psycho Joker [Music Video 2026] New Song",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 137,
+    "artist": "Eminem & Linkin Park",
+    "title": "SHUT DOWN (Music Video) 2026",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 138,
+    "artist": "Клип",
+    "title": "Про Бухло",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 139,
+    "artist": "Eminem",
+    "title": "The Real Psycho [Music Video] _ 2026",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 140,
+    "artist": "Dj Kapral",
+    "title": "Спокойная Ночь (Кино Cover) #musiclife",
+    "file_type": "video",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+
+  {
+    "id": 163,
+    "artist": "Eminem",
+    "title": "Lose Yourself",
+    "file_type": "audio",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+  {
+    "id": 164,
+    "artist": "Rammstein",
+    "title": "Du hast",
+    "file_type": "audio",
+    "file_id": null,
+    "url": null,
+    "source": "telegram"
+  },
+
+  {
+    "id": 300,
+    "artist": "Unknown",
+    "title": "-.cover",
+    "file_type": "audio",
+    "file_id": null,
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/-.cover.mp3",
+    "source": "releases"
+  },
+  {
+    "id": 301,
+    "artist": "Unknown",
+    "title": "-",
+    "file_type": "audio",
+    "file_id": null,
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/-.mp3",
+    "source": "releases"
+  }
+]
