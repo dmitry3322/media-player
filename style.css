@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+#tracks {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.track-card {
+  background: #1a1a1a;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.track-card:hover {
+  background: #222;
+}
+
+.track-main {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.track-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.track-artist {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.track-meta {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.track-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.btn-web {
+  background: #3a7afe;
+  color: #fff;
+}
+
+.btn-web:hover {
+  background: #2f6ae0;
+}
+
+.btn-tg {
+  background: #2fa3e0;
+  color: #fff;
+}
+
+.btn-tg:hover {
+  background: #1f8cc4;
+}
+
+/* === ПЛЕЕР === */
+
+#player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #181818;
+  padding: 12px;
+  border-top: 1px solid #333;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#player.active {
+  display: flex;
+}
+
+#playerTitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#playerArtist {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+#playerControls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#playerPlayPause {
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#playerProgress {
+  flex: 1;
+}
