@@ -1,0 +1,6 @@
+{
+  "songs": [
+    {"id": 1, "title": "Тестовая песня", "artist": "Бот Френд", "type": "audio", "fav": false},
+    {"id": 2, "title": "Тестовый клип", "artist": "Бот Френд", "type": "video", "fav": true}
+  ]
+}
