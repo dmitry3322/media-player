@@ -1,0 +1,38 @@
+[
+    {
+        "id": 246,
+        "artist": "Баста, МакSим",
+        "title": "Наше лето 2.0",
+        "file_type": "audio",
+        "file_id": "CQACAgIAAyEFAATqba2wAAIBRGoJHc9s3G0OdBljub8pSJi1OVRIAAI9PQACjCf4SJbhIUPxZwVpOwQ",
+        "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/%D0%91%D0%B0%D1%81%D1%82%D0%B0_%D0%9C%D0%B0%D0%BAS%D0%B8%D0%BC_-_%D0%9D%D0%B0%D1%88%D0%B5_%D0%BB%D0%B5%D1%82%D0%BE_20.mp3",
+        "source": "telegram"
+    },
+    {
+        "id": 247,
+        "artist": "Баста",
+        "title": "На заре «Альянс» cover [Livemusic.kz]",
+        "file_type": "audio",
+        "file_id": "CQACAgIAAyEFAATqba2wAAIBPmoJG3AC7jNrkhfRbCdAbhitZfyMAAJROwAC8IKJSyhpjIES6U9FOwQ",
+        "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/%D0%91%D0%B0%D1%81%D1%82%D0%B0_-_%D0%9D%D0%B0_%D0%B7%D0%B0%D1%80%D0%B5_%D0%90%D0%BB%D1%8C%D1%8F%D0%BD%D1%81_cover_Livemusickz.mp3",
+        "source": "telegram"
+    },
+    {
+        "id": 248,
+        "artist": "Комиссар",
+        "title": "Дрянь",
+        "file_type": "audio",
+        "file_id": "CQACAgIAAyEFAATqba2wAAIBPWoJBI2obSrqxcw102LXmh3B05ijAAJTlQAC8t4oSLMKTGqQjZVZOwQ",
+        "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/%D0%9A%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B0%D1%80_-_%D0%94%D1%80%D1%8F%D0%BD%D1%8C.mp3",
+        "source": "telegram"
+    },
+    {
+        "id": 249,
+        "artist": "5УТРА",
+        "title": "Давай Сбежим",
+        "file_type": "audio",
+        "file_id": "CQACAgIAAyEFAATqba2wAAIBP2oJHOnaYI7h-gZCQQgKKEkFqbZ2AAL6PwACEq2pS7TnMk9aE54LOwQ",
+        "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/5%D0%A3%D0%A2%D0%A0%D0%90_-_%D0%94%D0%B0%D0%B2%D0%B0%D0%B9_%D0%A1%D0%B1%D0%B5%D0%B6%D0%B8%D0%BC.mp3",
+        "source": "telegram"
+    }
+]
