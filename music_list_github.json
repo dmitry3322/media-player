@@ -1,0 +1,2259 @@
+[
+  {
+    "number": 1,
+    "id": 1,
+    "artist": "Русский Размер",
+    "title": "Лети",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/154.mp3"
+  },
+  {
+    "number": 2,
+    "id": 2,
+    "artist": "Русский Размер",
+    "title": "Вот так",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/153.mp3"
+  },
+  {
+    "number": 3,
+    "id": 3,
+    "artist": "Metallica",
+    "title": "Enter Sandman (Official Music Video)",
+    "file_type": "video",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": ""
+  },
+  {
+    "number": 4,
+    "id": 4,
+    "artist": "Sektor Gaza",
+    "title": "Tuman",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/99.Tuman.m4a"
+  },
+  {
+    "number": 5,
+    "id": 5,
+    "artist": "Sektor Gaza",
+    "title": "30 Let",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/6.30.Let.m4a"
+  },
+  {
+    "number": 6,
+    "id": 6,
+    "artist": "Dj Kapral",
+    "title": "Спокойная Ночь (Кино Cover)\n#musiclife",
+    "file_type": "video",
+    "tags": [],
+    "url": ""
+  },
+  {
+    "number": 7,
+    "id": 7,
+    "artist": "MODERN U feat. Оксана Почепа (Акула), NLO",
+    "title": "Такая любовь (feat. NLO, Оксана Почепа (Акула))",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/61.feat.NLO.mp3"
+  },
+  {
+    "number": 8,
+    "id": 8,
+    "artist": "Лолита",
+    "title": "На Титанике",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское"
+    ],
+    "url": "https://file.garden/ahhuIjR7HD1BxZbj/%D0%9B%D0%BE%D0%BB%D0%B8%D1%82%D0%B0%20-%20%D0%9D%D0%B0%20%D0%A2%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B5.flac"
+  },
+  {
+    "number": 9,
+    "id": 9,
+    "artist": "Русский Размер",
+    "title": "Ангел дня",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/152.mp3"
+  },
+  {
+    "number": 10,
+    "id": 10,
+    "artist": "Metallica",
+    "title": "Enter Sandman",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/59.13.04T.mp3"
+  },
+  {
+    "number": 11,
+    "id": 11,
+    "artist": "Eminem",
+    "title": "Venom",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/11.My.Humps.mp3store.cc.mp3"
+  },
+  {
+    "number": 12,
+    "id": 12,
+    "artist": "Что? feat. GuessWho & Цой",
+    "title": "Пачка сигарет",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/164.mp3"
+  },
+  {
+    "number": 13,
+    "id": 13,
+    "artist": "Кино",
+    "title": "Последний герой",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/121.-.mp3.mp3"
+  },
+  {
+    "number": 14,
+    "id": 14,
+    "artist": "Europe",
+    "title": "The Final Countdown",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/94.The.Final.Countdown.m4a"
+  },
+  {
+    "number": 15,
+    "id": 15,
+    "artist": "Eminem & Linkin Park",
+    "title": "SHUT DOWN (Music Video) 2026",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/15.Come.Along.Now.mp3"
+  },
+  {
+    "number": 16,
+    "id": 16,
+    "artist": "Galibri & Mavik",
+    "title": "Взгляни на небо (Remix)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/22.dSeeVKm4AUiJHvwjnmpf5S.mp3.mp3"
+  },
+  {
+    "number": 17,
+    "id": 17,
+    "artist": "Mr. President",
+    "title": "Coco Jamboo",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/13.Coco.Jamboo.m4a"
+  },
+  {
+    "number": 18,
+    "id": 18,
+    "artist": "Eminem",
+    "title": "The Real Psycho [Music Video] _ 2026",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/18.Cover.mp3"
+  },
+  {
+    "number": 19,
+    "id": 19,
+    "artist": "Eminem",
+    "title": "Genesis _ Music Video (2026)",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": ""
+  },
+  {
+    "number": 20,
+    "id": 20,
+    "artist": "Eminem",
+    "title": "Psycho Joker [Music Video 2026] New Song",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/28.Eminem.-.Psycho.Joker.Music.Video.2026.New.Song.m4a.m4a"
+  },
+  {
+    "number": 21,
+    "id": 21,
+    "artist": "Сергей Жуков",
+    "title": "Ждун",
+    "file_type": "video",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/21.Sefon.me.mp3"
+  },
+  {
+    "number": 22,
+    "id": 22,
+    "artist": "Неизвестен",
+    "title": "Eminem – Never Back Down Music Video 2026 Aggressive Motivational",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/24.Eminem_._Never_Back_Down_Music_Video_2026_Aggressive_Motivational.m4a.m4a"
+  },
+  {
+    "number": 23,
+    "id": 23,
+    "artist": "Eminem",
+    "title": "Under Pressure (Official Music Video)",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/29.Eminem.-.Under.Pressure.Official.Music.Video.m4a.m4a"
+  },
+  {
+    "number": 24,
+    "id": 24,
+    "artist": "Пикник",
+    "title": "Говорит и показывает",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/142.-.mp3.mp3"
+  },
+  {
+    "number": 25,
+    "id": 25,
+    "artist": "Кино",
+    "title": "Место для шага вперёд LIVE",
+    "file_type": "video",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": ""
+  },
+  {
+    "number": 26,
+    "id": 26,
+    "artist": "Eminem",
+    "title": "Psycho Harley Quinn (Video) 2026",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/26.Eminem.-.ASHES.OF.YESTERDAY.Official.music.lyrics.video.m4a.m4a"
+  },
+  {
+    "number": 27,
+    "id": 27,
+    "artist": "Дыши",
+    "title": "Взгляни на небо",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/110.-.youtube.m4a.m4a"
+  },
+  {
+    "number": 28,
+    "id": 28,
+    "artist": "Алиса",
+    "title": "Небо славян",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/103.-.mp3.mp3"
+  },
+  {
+    "number": 29,
+    "id": 29,
+    "artist": "Eminem",
+    "title": "ASHES OF YESTERDAY [Official music lyrics video]",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/26.Eminem.-.ASHES.OF.YESTERDAY.Official.music.lyrics.video.m4a.m4a"
+  },
+  {
+    "number": 30,
+    "id": 30,
+    "artist": "Sektor Gaza",
+    "title": "Lirika",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/49.Lirika.m4a"
+  },
+  {
+    "number": 31,
+    "id": 31,
+    "artist": "Неизвестен",
+    "title": "Король и Шут Камнем по Голове",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/124.13.03T.mp3"
+  },
+  {
+    "number": 32,
+    "id": 32,
+    "artist": "Metallica",
+    "title": "Enter Sandman (SHRED VERSION) || Sophie Lloyd",
+    "file_type": "video",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": ""
+  },
+  {
+    "number": 33,
+    "id": 33,
+    "artist": "Иванушки International",
+    "title": "Тучи",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/118.International.-.mp3.mp3"
+  },
+  {
+    "number": 34,
+    "id": 34,
+    "artist": "Marilyn Manson",
+    "title": "Svit Drims",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/55.Marilyn_Manson_-_Svit_Drims_.SkySound.cc.1.mp3.mp3"
+  },
+  {
+    "number": 35,
+    "id": 35,
+    "artist": "Кино",
+    "title": "Звезда",
+    "file_type": "video",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/35.Galibri.Mavik.-.izmailloff.remix.mp3"
+  },
+  {
+    "number": 36,
+    "id": 36,
+    "artist": "Пикник",
+    "title": "Игла",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/119.-.mp3.mp3"
+  },
+  {
+    "number": 37,
+    "id": 37,
+    "artist": "Кино",
+    "title": "Сборник клипов",
+    "file_type": "video",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": ""
+  },
+  {
+    "number": 38,
+    "id": 38,
+    "artist": "Tim Dian, Kondratev Music",
+    "title": "В неоне теней (Extended)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/109.Extended.m4a"
+  },
+  {
+    "number": 39,
+    "id": 39,
+    "artist": "Eminem",
+    "title": "Lose Yourself",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/51.Lose.Yourself.m4a"
+  },
+  {
+    "number": 40,
+    "id": 40,
+    "artist": "Кино",
+    "title": "Кукушка",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/127.-.mp3.mp3"
+  },
+  {
+    "number": 41,
+    "id": 41,
+    "artist": "EMINEM",
+    "title": "CRAZY SOCIOPATH [MUSIC VIDEO] (2026)",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": ""
+  },
+  {
+    "number": 42,
+    "id": 42,
+    "artist": "Depeche Mode",
+    "title": "Personal Jesus",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/75.Personal.Jesus.m4a"
+  },
+  {
+    "number": 43,
+    "id": 43,
+    "artist": "SERYABKINA",
+    "title": "Одиночка",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/87.13.03T.mp3"
+  },
+  {
+    "number": 44,
+    "id": 44,
+    "artist": "Slava",
+    "title": "Одиночество-сука",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/137.-.mp3"
+  },
+  {
+    "number": 45,
+    "id": 45,
+    "artist": "Полина Гагарина",
+    "title": "Therr Maitz 一 Rollin’ (Limp Bizkit) LAB c Антоном Беляевым",
+    "file_type": "video",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/45.Bad.Romance.Sefon.me.mp3"
+  },
+  {
+    "number": 46,
+    "id": 46,
+    "artist": "The Cranberries",
+    "title": "Zombie",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "зарубежное",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/92.Zombie.mp3"
+  },
+  {
+    "number": 47,
+    "id": 47,
+    "artist": "АЛИСА",
+    "title": "Небо Славян",
+    "file_type": "video",
+    "tags": [
+      "рок",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/47.Take.A.Look.Around.mp3"
+  },
+  {
+    "number": 48,
+    "id": 48,
+    "artist": "Би-2",
+    "title": "Полковнику никто не пишет",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское"
+    ],
+    "url": "https://file.garden/ahhuIjR7HD1BxZbj/01_%D0%91%D0%B8_2_%D0%9F%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D1%83_%D0%BD%D0%B8%D0%BA%D1%82%D0%BE_%D0%BD%D0%B5_%D0%BF%D0%B8%D1%88%D0%B5%D1%82.flac"
+  },
+  {
+    "number": 49,
+    "id": 49,
+    "artist": "Eminem",
+    "title": "Chess With Death [2026] New Song",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/27.Eminem.-.Chess.With.Death.2026.New.Song.m4a.m4a"
+  },
+  {
+    "number": 50,
+    "id": 50,
+    "artist": "ЛИНДА",
+    "title": "ЛУЧШИЕ КЛИПЫ \n#musiclife",
+    "file_type": "video",
+    "tags": [],
+    "url": ""
+  },
+  {
+    "number": 51,
+    "id": 51,
+    "artist": "Би-2",
+    "title": "Варвара",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское"
+    ],
+    "url": "https://file.garden/ahhuIjR7HD1BxZbj/02.%20%D0%91%D0%B8-2%20-%20%D0%92%D0%B0%D1%80%D0%B2%D0%B0%D1%80%D0%B0.flac"
+  },
+  {
+    "number": 52,
+    "id": 52,
+    "artist": "DJ DimixeR, 7Б",
+    "title": "Молодые ветра",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/20.mp3"
+  },
+  {
+    "number": 53,
+    "id": 53,
+    "artist": "Баста&Zivert (JAMA MUSIC REMIX)",
+    "title": "неболей",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/10.mp3"
+  },
+  {
+    "number": 54,
+    "id": 54,
+    "artist": "Балаган Лимитед",
+    "title": "Че те надо?",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/54.Madcon.-.Beggin.mp3.mp3"
+  },
+  {
+    "number": 55,
+    "id": 55,
+    "artist": "SERYABKINA",
+    "title": "Стреляй",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/88.13.03T.mp3"
+  },
+  {
+    "number": 56,
+    "id": 56,
+    "artist": "Tim Dian & Kondratev Music",
+    "title": "Свет в Тумане",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/155.m4a"
+  },
+  {
+    "number": 57,
+    "id": 57,
+    "artist": "Фактор 2",
+    "title": "Красавица",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/162.mp3"
+  },
+  {
+    "number": 58,
+    "id": 58,
+    "artist": "Eminem",
+    "title": "Devıl_s Son [Music Video] (2026)",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": ""
+  },
+  {
+    "number": 59,
+    "id": 59,
+    "artist": "Eminem",
+    "title": "Psycho Joker [Music Video 2026] New Song",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://file.garden/ahhuIjR7HD1BxZbj/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/Psiho_Joker_Eminem.mp4"
+  },
+  {
+    "number": 60,
+    "id": 60,
+    "artist": "Дарья Волосевич (исполнение песни в 13 лет)",
+    "title": "Небо славян",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/115._._._._._13_._._.mp3.mp3"
+  },
+  {
+    "number": 61,
+    "id": 61,
+    "artist": "Кукрыниксы",
+    "title": "Не беда",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/126.-.mp3.mp3"
+  },
+  {
+    "number": 62,
+    "id": 62,
+    "artist": "Eminem",
+    "title": "Never Black Down (Music Video) 2026",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/62.Save.Me.mp3"
+  },
+  {
+    "number": 63,
+    "id": 63,
+    "artist": "Виктор Цой | Кино |",
+    "title": "Пачка Cигарет | Improviser Remix |\n#musiclife",
+    "file_type": "video",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": ""
+  },
+  {
+    "number": 64,
+    "id": 64,
+    "artist": "Sak Noel",
+    "title": "Loca People",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/83.Loca.People.mp3"
+  },
+  {
+    "number": 65,
+    "id": 65,
+    "artist": "Клип",
+    "title": "Про Бухло",
+    "file_type": "video",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/65.mp3"
+  },
+  {
+    "number": 66,
+    "id": 66,
+    "artist": "Баста",
+    "title": "Моя игра",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/107.mp3"
+  },
+  {
+    "number": 67,
+    "id": 67,
+    "artist": "Rammstein",
+    "title": "Du hast",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/5.Du.hast.mp3"
+  },
+  {
+    "number": 68,
+    "id": 68,
+    "artist": "Eminem",
+    "title": "The Devıl Inside Me (2026) New Song",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/30.Eminem.-.The.Devil.Inside.Me.2026.New.Song.m4a.m4a"
+  },
+  {
+    "number": 69,
+    "id": 69,
+    "artist": "Eminem",
+    "title": "PARANOIA [Music Video] _ 2026",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": ""
+  },
+  {
+    "number": 70,
+    "id": 70,
+    "artist": "Пикник",
+    "title": "От Кореи до Карелии",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/138.-.mp3.mp3"
+  },
+  {
+    "number": 71,
+    "id": 71,
+    "artist": "izmailloff",
+    "title": "Galibri & Mavik - Взгляни на небо (izmailloff remix)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/35.Galibri.Mavik.-.izmailloff.remix.mp3"
+  },
+  {
+    "number": 72,
+    "id": 72,
+    "artist": "Смысловые Галлюцинации",
+    "title": "Звезды 3000 (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/159.3000.Sefon.me.mp3"
+  },
+  {
+    "number": 73,
+    "id": 73,
+    "artist": "Rammstein",
+    "title": "Sonne",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/81.Sonne.mp3"
+  },
+  {
+    "number": 74,
+    "id": 74,
+    "artist": "Клип",
+    "title": "Про рыбалку",
+    "file_type": "video",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/74.Last.Resort.Sefon.me.mp3"
+  },
+  {
+    "number": 75,
+    "id": 75,
+    "artist": "Акула [drivemusic.me]",
+    "title": "Кислотный Диджей",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/8.mp3"
+  },
+  {
+    "number": 76,
+    "id": 76,
+    "artist": "Metallica",
+    "title": "Enter Sandman (SHARES VERSION)",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": "https://file.garden/ahhuIjR7HD1BxZbj/Metallica%20-%20Enter%20Sandman%20(SHRED%20VERSION)%20__%20Sophie%20Lloyd.flac"
+  },
+  {
+    "number": 77,
+    "id": 77,
+    "artist": "Vanilla Ice",
+    "title": "Ice Ice Baby (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/100.Ice.Ice.Baby.Sefon.me.mp3"
+  },
+  {
+    "number": 78,
+    "id": 78,
+    "artist": "Shaham Joyce, Brandon Perkins",
+    "title": "Bodyrock",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/89.Bodyrock.mp3"
+  },
+  {
+    "number": 79,
+    "id": 79,
+    "artist": "Клип",
+    "title": "Рыбак",
+    "file_type": "video",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/79.mp3"
+  },
+  {
+    "number": 80,
+    "id": 80,
+    "artist": "The Offspring",
+    "title": "Pretty Fly (For A White Guy) (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/95.Pretty.Fly.For.A.White.Guy.Sefon.me.mp3"
+  },
+  {
+    "number": 81,
+    "id": 81,
+    "artist": "Eminem",
+    "title": "Dracula (Remix) 2018",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/81.Sonne.mp3"
+  },
+  {
+    "number": 82,
+    "id": 82,
+    "artist": "Виктор Цой",
+    "title": "Кукушка (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/111.Sefon.me.mp3"
+  },
+  {
+    "number": 83,
+    "id": 83,
+    "artist": "Руки Вверх",
+    "title": "Думала (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/148.Sefon.me.mp3"
+  },
+  {
+    "number": 84,
+    "id": 84,
+    "artist": "Robbie Williams",
+    "title": "Supreme",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/82.Robbie.Williams.-.Supreme.mp3.mp3"
+  },
+  {
+    "number": 85,
+    "id": 85,
+    "artist": "НАШЕСТВИЕ 2002 Король и Шут",
+    "title": "Прыгну со скалы",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/85.Send.Me.An.Angel.mp3"
+  },
+  {
+    "number": 86,
+    "id": 86,
+    "artist": "Eminem",
+    "title": "MAM",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/25.MAM.mp3"
+  },
+  {
+    "number": 87,
+    "id": 87,
+    "artist": "Christina Aguilera",
+    "title": "Genie in a Bottle",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/12.Genie.in.a.Bottle.mp3"
+  },
+  {
+    "number": 88,
+    "id": 88,
+    "artist": "Scorpions",
+    "title": "Send Me An Angel",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/85.Send.Me.An.Angel.mp3"
+  },
+  {
+    "number": 89,
+    "id": 89,
+    "artist": "Madagascar 5",
+    "title": "I Like To Move It",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/53.I.Like.To.Move.It.mp3"
+  },
+  {
+    "number": 90,
+    "id": 90,
+    "artist": "Toni Braxton",
+    "title": "Unbreak My Heart (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/96.Unbreak.My.Heart.Sefon.me.mp3"
+  },
+  {
+    "number": 91,
+    "id": 91,
+    "artist": "Светлана Рерих",
+    "title": "Ладошки (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/156.Sefon.Pro.mp3"
+  },
+  {
+    "number": 92,
+    "id": 92,
+    "artist": "Destiny's Child",
+    "title": "Survivor",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/16.Survivor.mp3"
+  },
+  {
+    "number": 93,
+    "id": 93,
+    "artist": "Alizée",
+    "title": "Moi... Lolita",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/9.Moi.Lolita.mp3"
+  },
+  {
+    "number": 94,
+    "id": 94,
+    "artist": "Nirvana",
+    "title": "Smells Like Teen Spirit",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/69.Smells.Like.Teen.Spirit.mp3"
+  },
+  {
+    "number": 95,
+    "id": 95,
+    "artist": "Алексей Большаков",
+    "title": "Раммштайн",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/102.mp3"
+  },
+  {
+    "number": 96,
+    "id": 96,
+    "artist": "Maroon 5",
+    "title": "This Love (Muzgen.net)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/56.This.Love.Muzgen.net.mp3"
+  },
+  {
+    "number": 97,
+    "id": 97,
+    "artist": "Static-X",
+    "title": "The Only",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/90.The.Only.mp3"
+  },
+  {
+    "number": 98,
+    "id": 98,
+    "artist": "Eminem",
+    "title": "2Pac - Psycho (2026) Video",
+    "file_type": "video",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/98.TRUE.Andery.Toronto.feat.SASHA.DEDOVA.-.mp3.mp3"
+  },
+  {
+    "number": 99,
+    "id": 99,
+    "artist": "Los Del Rio",
+    "title": "Macarena (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/50.Macarena.Sefon.me.mp3"
+  },
+  {
+    "number": 100,
+    "id": 100,
+    "artist": "No Doubt",
+    "title": "Don't Speak",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/70.Don.t.Speak.mp3"
+  },
+  {
+    "number": 101,
+    "id": 101,
+    "artist": "Inna",
+    "title": "Hot (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/42.Hot.Sefon.me.mp3"
+  },
+  {
+    "number": 102,
+    "id": 102,
+    "artist": "5sta family",
+    "title": "Я буду",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/3.mp3"
+  },
+  {
+    "number": 103,
+    "id": 103,
+    "artist": "Инфинити",
+    "title": "Где Ты (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/120.Sefon.Pro.mp3"
+  },
+  {
+    "number": 104,
+    "id": 104,
+    "artist": "Женя Отрадная",
+    "title": "Уходи (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/117.Sefon.me.mp3"
+  },
+  {
+    "number": 105,
+    "id": 105,
+    "artist": "Kalwi & Remi",
+    "title": "Explosion",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/44.Explosion.mp3"
+  },
+  {
+    "number": 106,
+    "id": 106,
+    "artist": "East Clubbers",
+    "title": "Sextasy Matt van Punch New Vocal Rmx 2007",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/23.East_Clubbers_-_Sextasy_Matt_van_Punch_New_Vocal_Rmx_2007_.mp3.mp3"
+  },
+  {
+    "number": 107,
+    "id": 107,
+    "artist": "Отпетые Мошенники",
+    "title": "Девушки Бывают Разные (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/139.Sefon.me.mp3"
+  },
+  {
+    "number": 108,
+    "id": 108,
+    "artist": "Пропаганда",
+    "title": "Дождь По Крышам (VAM Revox) (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/143.VAM.Revox.Sefon.me.mp3"
+  },
+  {
+    "number": 109,
+    "id": 109,
+    "artist": "Руки Вверх",
+    "title": "18 Мне Уже (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/146.18.Sefon.me.mp3"
+  },
+  {
+    "number": 110,
+    "id": 110,
+    "artist": "Inna, Bob Taylor",
+    "title": "Déjà Vu",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/41.Deja.Vu.mp3"
+  },
+  {
+    "number": 111,
+    "id": 111,
+    "artist": "INNA",
+    "title": "Amazing",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/40.Amazing.mp3"
+  },
+  {
+    "number": 112,
+    "id": 112,
+    "artist": "Quest Pistols Show",
+    "title": "Я твой наркотик",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/79.mp3"
+  },
+  {
+    "number": 113,
+    "id": 113,
+    "artist": "Heath Hunter",
+    "title": "Revolution in Paradise",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/39.Revolution.in.Paradise.mp3"
+  },
+  {
+    "number": 114,
+    "id": 114,
+    "artist": "Неизвестен",
+    "title": "one-republic-feat -timbaland-apologize",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/72.one-republic-feat_-timbaland-apologize.mp3.mp3"
+  },
+  {
+    "number": 115,
+    "id": 115,
+    "artist": "The Chemical Brothers",
+    "title": "Galvanize (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/93.Galvanize.Sefon.me.mp3"
+  },
+  {
+    "number": 116,
+    "id": 116,
+    "artist": "Двойной Форсаж (2 Fast 2 Furio Двойной Форсаж (2 Fast 2 Furio",
+    "title": "02. Ludacris - Act A Fool 02. Ludacris - Act A Fool",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/52.02.Ludacris.-.Act.A.Fool.02.Ludacris.-.Act.A.Fool.mp3"
+  },
+  {
+    "number": 117,
+    "id": 117,
+    "artist": "Selena Gomez, The Scene",
+    "title": "Love You Like A Love Song",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/86.Love.You.Like.A.Love.Song.mp3"
+  },
+  {
+    "number": 118,
+    "id": 118,
+    "artist": "Giorgos Mazonakis",
+    "title": "To Gucci Forema",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/36.To.Gucci.Forema.mp3"
+  },
+  {
+    "number": 119,
+    "id": 119,
+    "artist": "Отпетые Мошенники",
+    "title": "Девушки Бывают Разные (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/139.Sefon.me.mp3"
+  },
+  {
+    "number": 120,
+    "id": 120,
+    "artist": "t.A.T.u.",
+    "title": "Я сошла с ума",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/91.mp3"
+  },
+  {
+    "number": 121,
+    "id": 121,
+    "artist": "Papa Roach",
+    "title": "Last Resort (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/74.Last.Resort.Sefon.me.mp3"
+  },
+  {
+    "number": 122,
+    "id": 122,
+    "artist": "Morandi",
+    "title": "Angels (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/63.Angels.Sefon.me.mp3"
+  },
+  {
+    "number": 123,
+    "id": 123,
+    "artist": "Пропаганда [mp3xa.cc]",
+    "title": "Super Dетка",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/144.Super.D.mp3"
+  },
+  {
+    "number": 124,
+    "id": 124,
+    "artist": "O-Zone",
+    "title": "Dragostea Din Tei (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/71.Dragostea.Din.Tei.Sefon.me.mp3"
+  },
+  {
+    "number": 125,
+    "id": 125,
+    "artist": "Мальчишник",
+    "title": "Последний Раз (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/129.Sefon.me.mp3"
+  },
+  {
+    "number": 126,
+    "id": 126,
+    "artist": "Маша И Медведи",
+    "title": "Любочка (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/132.Sefon.me.mp3"
+  },
+  {
+    "number": 127,
+    "id": 127,
+    "artist": "Metallica",
+    "title": "The Unforgiven",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/58.The.Unforgiven.mp3"
+  },
+  {
+    "number": 128,
+    "id": 129,
+    "artist": "Найк Борзов",
+    "title": "Лошадка (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/134.Sefon.me.mp3"
+  },
+  {
+    "number": 129,
+    "id": 130,
+    "artist": "Руки Вверх",
+    "title": "Он Тебя Целует (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/151.Sefon.me.mp3"
+  },
+  {
+    "number": 130,
+    "id": 131,
+    "artist": "Limp Bizkit",
+    "title": "Take A Look Around",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/47.Take.A.Look.Around.mp3"
+  },
+  {
+    "number": 131,
+    "id": 132,
+    "artist": "Ногу свело!",
+    "title": "Наши юные, смешные голоса (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/135.Sefon.me.mp3"
+  },
+  {
+    "number": 132,
+    "id": 133,
+    "artist": "Андрей Губин",
+    "title": "Птица (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/104.Sefon.me.mp3"
+  },
+  {
+    "number": 133,
+    "id": 134,
+    "artist": "Виктор Цой",
+    "title": "Пачка сигарет (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/112.Sefon.me.mp3"
+  },
+  {
+    "number": 134,
+    "id": 135,
+    "artist": "NikitA",
+    "title": "Машина",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/68.mp3"
+  },
+  {
+    "number": 135,
+    "id": 136,
+    "artist": "Mr. Credo",
+    "title": "Чудная Долина",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/64.mp3"
+  },
+  {
+    "number": 136,
+    "id": 137,
+    "artist": "OPIUM Project",
+    "title": "Губы шепчут",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/73.mp3"
+  },
+  {
+    "number": 137,
+    "id": 138,
+    "artist": "Limp Bizkit",
+    "title": "Rollin' (Air Raid Vehicle) (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/48.Rollin.Air.Raid.Vehicle.Sefon.Pro.mp3"
+  },
+  {
+    "number": 138,
+    "id": 139,
+    "artist": "Nickelback",
+    "title": "How You Remind Me (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/67.How.You.Remind.Me.Sefon.me.mp3"
+  },
+  {
+    "number": 139,
+    "id": 140,
+    "artist": "Руки Вверх",
+    "title": "Назови его как меня",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/149.mp3"
+  },
+  {
+    "number": 140,
+    "id": 141,
+    "artist": "Смысловые Галлюцинации",
+    "title": "Зачем топтать мою любовь (З.Т.М.Л.) (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/158.Sefon.me.mp3"
+  },
+  {
+    "number": 141,
+    "id": 142,
+    "artist": "Король и Шут",
+    "title": "Лесник (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/125.Sefon.me.mp3"
+  },
+  {
+    "number": 142,
+    "id": 143,
+    "artist": "Григорий Лепс feat. Ирина Аллегрова",
+    "title": "Я Тебе Не Верю (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/114.Sefon.me.mp3"
+  },
+  {
+    "number": 143,
+    "id": 144,
+    "artist": "Dj Azik",
+    "title": "Adyg Rap (mp3store.cc)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/19.Adyg.Rap.mp3store.cc.mp3"
+  },
+  {
+    "number": 144,
+    "id": 145,
+    "artist": "Morandi",
+    "title": "Save Me",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/62.Save.Me.mp3"
+  },
+  {
+    "number": 145,
+    "id": 146,
+    "artist": "Evanescence",
+    "title": "Bring Me To Life (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/31.Bring.Me.To.Life.Sefon.me.mp3"
+  },
+  {
+    "number": 146,
+    "id": 147,
+    "artist": "Неизвестен",
+    "title": "justin-timberlake-cry-me-a-river",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/43.justin-timberlake-cry-me-a-river.mp3.mp3"
+  },
+  {
+    "number": 147,
+    "id": 148,
+    "artist": "Quest Pistols",
+    "title": "Я Устал (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/80.Sefon.Pro.mp3"
+  },
+  {
+    "number": 148,
+    "id": 149,
+    "artist": "PH Electro",
+    "title": "English Man In New York",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/76.English.Man.In.New.York.mp3"
+  },
+  {
+    "number": 149,
+    "id": 150,
+    "artist": "Massari",
+    "title": "Real Love (Ogb And Toni Works Remix) (Muzopen.net)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/57.Real.Love.Ogb.And.Toni.Works.Remix.Muzopen.net.mp3"
+  },
+  {
+    "number": 150,
+    "id": 151,
+    "artist": "Daddy Yankee",
+    "title": "Gasolina",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/14.Gasolina.mp3"
+  },
+  {
+    "number": 151,
+    "id": 152,
+    "artist": "DJ Aligator Project",
+    "title": "The Whistle Song",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/17.The.Whistle.Song.mp3"
+  },
+  {
+    "number": 152,
+    "id": 153,
+    "artist": "Баста",
+    "title": "На заре «Альянс» cover [Livemusic.kz]",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/108.cover.Livemusic.kz.mp3"
+  },
+  {
+    "number": 153,
+    "id": 154,
+    "artist": "Чи-Ли",
+    "title": "Сердце (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/163.Sefon.Pro.mp3"
+  },
+  {
+    "number": 154,
+    "id": 155,
+    "artist": "Fly Project",
+    "title": "Toca Toca",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/33.Toca.Toca.mp3"
+  },
+  {
+    "number": 155,
+    "id": 156,
+    "artist": "Дельфин",
+    "title": "Весна (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/116.Sefon.me.mp3"
+  },
+  {
+    "number": 156,
+    "id": 157,
+    "artist": "Мария Ржевская",
+    "title": "Когда Я Стану Кошкой (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/131.Sefon.Pro.mp3"
+  },
+  {
+    "number": 157,
+    "id": 158,
+    "artist": "Мари Краймбрери",
+    "title": "Случилась Осень",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/130.mp3"
+  },
+  {
+    "number": 158,
+    "id": 159,
+    "artist": "Тимати feat. DJ Dlee",
+    "title": "В Клубе (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/161.Sefon.me.mp3"
+  },
+  {
+    "number": 159,
+    "id": 160,
+    "artist": "СКАЙ",
+    "title": "Тебе це може вбити (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/157.Sefon.me.mp3"
+  },
+  {
+    "number": 160,
+    "id": 161,
+    "artist": "Akon Feat. Eminem",
+    "title": "Smack That (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "зарубежное"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/7.Smack.That.Sefon.me.mp3"
+  },
+  {
+    "number": 161,
+    "id": 162,
+    "artist": "Руки Вверх",
+    "title": "Он Не Я (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/150.Sefon.me.mp3"
+  },
+  {
+    "number": 162,
+    "id": 163,
+    "artist": "Plazma",
+    "title": "Take My Love",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/78.Take.My.Love.mp3"
+  },
+  {
+    "number": 163,
+    "id": 164,
+    "artist": "Отпетые Мошенники",
+    "title": "А У Реки (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/141.Sefon.me.mp3"
+  },
+  {
+    "number": 164,
+    "id": 165,
+    "artist": "Виктор Цой",
+    "title": "Хочу перемен (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/113.Sefon.me.mp3"
+  },
+  {
+    "number": 165,
+    "id": 166,
+    "artist": "Неизвестен",
+    "title": "narkotik-trast-i-like-it",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/66.narkotik-trast-i-like-it.mp3.mp3"
+  },
+  {
+    "number": 166,
+    "id": 167,
+    "artist": "DJ Дождик",
+    "title": "Почему же (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/21.Sefon.me.mp3"
+  },
+  {
+    "number": 167,
+    "id": 168,
+    "artist": "Lady GaGa",
+    "title": "Bad Romance (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/45.Bad.Romance.Sefon.me.mp3"
+  },
+  {
+    "number": 168,
+    "id": 169,
+    "artist": "Bomfunk Mc's",
+    "title": "Freestyler (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/167.Bomfunk.Mc.s.-.Freestyler.mp3"
+  },
+  {
+    "number": 169,
+    "id": 170,
+    "artist": "Игорёк",
+    "title": "Подождем (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/184.-.mp3"
+  },
+  {
+    "number": 170,
+    "id": 171,
+    "artist": "Gala",
+    "title": "Faraway",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/34.Faraway.mp3"
+  },
+  {
+    "number": 171,
+    "id": 172,
+    "artist": "Баста, МакSим",
+    "title": "Наше лето 2.0",
+    "file_type": "audio",
+    "tags": [
+      "рэп",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/106.S.-.2.0.mp3.mp3"
+  },
+  {
+    "number": 172,
+    "id": 173,
+    "artist": "Despina Vandi",
+    "title": "Come Along Now",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/15.Come.Along.Now.mp3"
+  },
+  {
+    "number": 173,
+    "id": 174,
+    "artist": "Sash!",
+    "title": "Adelante (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/84.Adelante.Sefon.me.mp3"
+  },
+  {
+    "number": 174,
+    "id": 175,
+    "artist": "Global Deejays",
+    "title": "The Sound of San Francisco",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/37.The.Sound.of.San.Francisco.mp3"
+  },
+  {
+    "number": 175,
+    "id": 176,
+    "artist": "Тайпан feat. LI ZA",
+    "title": "С Тобой",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/160.mp3"
+  },
+  {
+    "number": 176,
+    "id": 177,
+    "artist": "Black Eyed Peas",
+    "title": "My Humps (mp3store.cc)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/11.My.Humps.mp3store.cc.mp3"
+  },
+  {
+    "number": 177,
+    "id": 178,
+    "artist": "Gorillaz",
+    "title": "Feel Good Inc [mp3uk.net]",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/38.Feel.Good.Inc.mp3uk.net.mp3"
+  },
+  {
+    "number": 178,
+    "id": 179,
+    "artist": "Неизвестен",
+    "title": "Агата Кристи. Как на Войне",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/101.mp3.mp3"
+  },
+  {
+    "number": 179,
+    "id": 180,
+    "artist": "TRUEтень, Andery Toronto feat. SASHA DEDOVA",
+    "title": "Без",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/98.TRUE.Andery.Toronto.feat.SASHA.DEDOVA.-.mp3.mp3"
+  },
+  {
+    "number": 180,
+    "id": 181,
+    "artist": "Katy Perry",
+    "title": "I Kissed A Girl [mp3uk.net]",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/170.katy-perry-i-kissed-a-girl-mp3.mp3"
+  },
+  {
+    "number": 181,
+    "id": 182,
+    "artist": "Нэнси",
+    "title": "Дым сигарет с ментолом (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/136.Sefon.Pro.mp3"
+  },
+  {
+    "number": 182,
+    "id": 183,
+    "artist": "Benny Benassi",
+    "title": "Love Is Gonna Save Us",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/166.Benny_Benassi_-_Love_Is_Gonna_Save_Us_.musmore.com.mp3"
+  },
+  {
+    "number": 183,
+    "id": 184,
+    "artist": "5УТРА",
+    "title": "Давай Сбежим",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/4.mp3"
+  },
+  {
+    "number": 184,
+    "id": 185,
+    "artist": "Mr. Credo",
+    "title": "Медляк",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/65.mp3"
+  },
+  {
+    "number": 185,
+    "id": 186,
+    "artist": "Madcon",
+    "title": "Beggin",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/54.Madcon.-.Beggin.mp3.mp3"
+  },
+  {
+    "number": 186,
+    "id": 187,
+    "artist": "Комиссар",
+    "title": "Дрянь",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/122.-.mp3.mp3"
+  },
+  {
+    "number": 187,
+    "id": 188,
+    "artist": "Корни",
+    "title": "Ты Узнаешь Ее (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/123.Sefon.me.mp3"
+  },
+  {
+    "number": 188,
+    "id": 189,
+    "artist": "Leann Rimes",
+    "title": "Can't Fight The Moonlight (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/46.Can.t.Fight.The.Moonlight.Sefon.me.mp3"
+  },
+  {
+    "number": 189,
+    "id": 190,
+    "artist": "Руки Вверх",
+    "title": "Алёшка (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "поп",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/147.Sefon.me.mp3"
+  },
+  {
+    "number": 190,
+    "id": 191,
+    "artist": "Fly Project",
+    "title": "Mandala",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/32.Mandala.mp3"
+  },
+  {
+    "number": 191,
+    "id": 192,
+    "artist": "DJ Kapral feat. Osya",
+    "title": "Ничего Не Говори (Cover)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/18.Cover.mp3"
+  },
+  {
+    "number": 192,
+    "id": 193,
+    "artist": "143_Lolita",
+    "title": "Ostanovite zemlyu",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/77.Ostanovite.zemlyu.mp3"
+  },
+  {
+    "number": 193,
+    "id": 194,
+    "artist": "Tony Igy",
+    "title": "Astronomia (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/97.Astronomia.Sefon.me.mp3"
+  },
+  {
+    "number": 194,
+    "id": 195,
+    "artist": "Еминем",
+    "title": "Not Afraid",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/169.eminem_-_not_afraid_.mp3"
+  },
+  {
+    "number": 195,
+    "id": 196,
+    "artist": "Adele",
+    "title": "Rolling In The Deep (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/165.Adele.-.Rolling.In.The.Deep.mp3"
+  },
+  {
+    "number": 196,
+    "id": 197,
+    "artist": "Жуки",
+    "title": "Батарейка (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/183.-.mp3"
+  },
+  {
+    "number": 197,
+    "id": 198,
+    "artist": "БандЭрос",
+    "title": "Коламбия Пикчерз не представляет (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/176._._._._.mp3"
+  },
+  {
+    "number": 198,
+    "id": 199,
+    "artist": "Rihanna, Jay-Z",
+    "title": "Umbrella",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/175.Rihanna_Jay-Z_-_Umbrella_.musmore.com.mp3"
+  },
+  {
+    "number": 199,
+    "id": 200,
+    "artist": "Виктор Цой",
+    "title": "Группа крови (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/178.-.mp3"
+  },
+  {
+    "number": 200,
+    "id": 201,
+    "artist": "Бумбокс",
+    "title": "Вахтёрам (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/177.-.mp3"
+  },
+  {
+    "number": 201,
+    "id": 202,
+    "artist": "Modern Talking",
+    "title": "Cheri Cheri Lady [mp3uk.net]",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/172.modern-talking-cheri-cheri-lady-mp3.mp3"
+  },
+  {
+    "number": 202,
+    "id": 203,
+    "artist": "Moves Like Jagger",
+    "title": "Maroon 5 feat. Christina Aguilera",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/171.maroon-5-feat_-christina-aguilera-moves-like-jagger.mp3"
+  },
+  {
+    "number": 203,
+    "id": 204,
+    "artist": "Дима Билан",
+    "title": "Я Просто Люблю Тебя (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": ""
+  },
+  {
+    "number": 204,
+    "id": 205,
+    "artist": "Мика Ньютон",
+    "title": "Белые Лошади (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/186.-.mp3"
+  },
+  {
+    "number": 205,
+    "id": 206,
+    "artist": "Многоточие",
+    "title": "В жизни так бывает (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/187.-.mp3"
+  },
+  {
+    "number": 206,
+    "id": 207,
+    "artist": "Градусы",
+    "title": "Режиссер (Sefon.Pro)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/180.-.mp3"
+  },
+  {
+    "number": 207,
+    "id": 208,
+    "artist": "Дискотека Авария",
+    "title": "Новогодняя (Sefon.me)",
+    "file_type": "audio",
+    "tags": [
+      "рок",
+      "русское",
+      "90-е"
+    ],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/182.-.mp3"
+  },
+  {
+    "number": 208,
+    "id": 209,
+    "artist": "Виктор Цой",
+    "title": "Хочу перемен (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/113.Sefon.me.mp3"
+  },
+  {
+    "number": 209,
+    "id": 210,
+    "artist": "Краски",
+    "title": "Старший Брат (Sefon.me)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/185.-.mp3"
+  },
+  {
+    "number": 210,
+    "id": 211,
+    "artist": "Modern Talking",
+    "title": "Cheri Cheri Lady",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/173.Modern.Talking-Cherry.Cherry.Lady.mp3"
+  },
+  {
+    "number": 211,
+    "id": 212,
+    "artist": "Modern Talking",
+    "title": "Brother Louie (Metro Club Mix)",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/174.Modern.Talking.-.Brother.Loui.remix.mp3"
+  },
+  {
+    "number": 212,
+    "id": 213,
+    "artist": "Modern Talking",
+    "title": "Brother Louie",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/168.Brother.Louie.-.Modern.Talking.mp3"
+  },
+  {
+    "number": 213,
+    "id": 214,
+    "artist": "DJ SMASH",
+    "title": "Волна",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/188.DJ.SMASH.-.mp3.mp3"
+  },
+  {
+    "number": 214,
+    "id": 216,
+    "artist": "Sabi, SHAMI",
+    "title": "Верный",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/194.Sabi.SHAMI.-.mp3.mp3"
+  },
+  {
+    "number": 215,
+    "id": 217,
+    "artist": "Karna.val, SOLDATOV",
+    "title": "Вдох-выдох",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/189.Karna.val.SOLDATOV.-.-.mp3.mp3"
+  },
+  {
+    "number": 216,
+    "id": 218,
+    "artist": "Люся Чаботина",
+    "title": "Целуй",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/200.mp3"
+  },
+  {
+    "number": 217,
+    "id": 219,
+    "artist": "MOLLY feat. Егор Крид",
+    "title": "Если ты меня не любишь",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/190.MOLLY_feat_._._._._._._.mp3.mp3"
+  },
+  {
+    "number": 218,
+    "id": 220,
+    "artist": "Коста Лакоста, Ольга Серябкина",
+    "title": "По улицам",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/196._._._._._.mp3.mp3"
+  },
+  {
+    "number": 219,
+    "id": 221,
+    "artist": "DJ SMASH, NIVESTA",
+    "title": "ПОЗВОНИ",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/187.DJ.SMASH.NIVESTA.-.mp3.mp3"
+  },
+  {
+    "number": 220,
+    "id": 222,
+    "artist": "Mia Boyka",
+    "title": "Самая",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/198.mp3"
+  },
+  {
+    "number": 221,
+    "id": 223,
+    "artist": "rubchanskii, кража банкнот",
+    "title": "кружит",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/192.rubchanskii.-.mp3.mp3"
+  },
+  {
+    "number": 222,
+    "id": 224,
+    "artist": "Дима Билан",
+    "title": "Молния",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/195.-.mp3.mp3"
+  },
+  {
+    "number": 223,
+    "id": 225,
+    "artist": "IOWA",
+    "title": "Маршрутка",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/197.-.IOWA.mp3.mp3"
+  },
+  {
+    "number": 224,
+    "id": 226,
+    "artist": "MORGENSHTERN",
+    "title": "Последняя Любовь",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/191.MORGENSHTERN.-.mp3.mp3"
+  },
+  {
+    "number": 225,
+    "id": 227,
+    "artist": "Ольга Бузова",
+    "title": "WIFI",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://github.com/dmitry3322/media-player/releases/download/music-v1/199.-.WIFI.mp3.mp3"
+  },
+  {
+    "number": 329,
+    "id": 337,
+    "artist": "Sabi & Миа Бойка",
+    "title": "Базовый Минимум | #Vqmusic ོ",
+    "file_type": "audio",
+    "tags": [],
+    "url": "https://file.garden/ahhuIjR7HD1BxZbj/Sabi_%D0%9C%D0%B8%D0%B0_%D0%91%D0%BE%D0%B9%D0%BA%D0%B0_%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9_%D0%9C%D0%B8%D0%BD%D0%B8%D0%BC%D1%83%D0%BC_%23Vqmusic.mp3"
+  }
+]
